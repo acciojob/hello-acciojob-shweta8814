@@ -1,21 +1,29 @@
-<!doctype html>
-<html>
-	<head>
-	<style>
-		{background-color:black(#000000);}
-		{text color: white(#ffffff);}
-		{left margin: 32px;}
-	    {padding on all side: 10px;}
-		{width-height: 150px;}
-	</style>	
-	</head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Elements</title>
+    <style>
+        /* Style for the main element */
+        .accio {
+            width: 150px;
+            height: 150px;
+            background-color: #000000;
+        }
+
+        /* Style for the p element with class hello-accio */
+        .hello-accio {
+            color: #ffffff;
+            margin-left: 32px;
+            padding: 10px;
+        }
+    </style>
+</head>
 <body>
-		<div class="accio">
-		  <h2>accio</h2>
-		  <p>hello-accio</p>
-		</div>
-		<h1 id="job">job</h1>
-		<p>Hello Accio Job</p>
+    <main class="accio" id="job">
+        <p class="hello-accio">Hello Accio Job</p>
+    </main>
 </body>
 </html>
 	
